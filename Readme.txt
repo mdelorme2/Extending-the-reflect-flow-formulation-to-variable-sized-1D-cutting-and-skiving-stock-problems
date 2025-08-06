@@ -7,21 +7,21 @@ In folder CSP-SSP, 5 solution methods for the VSCSP, 11 for the VSSSP (with suff
 In folder MKP, 5 solution methods for the MKP and the instance files.
 
 The different folders correspond to the following methods in our paper:
-- ARCFLOW					| The arcflow formulation
-- LARCFLOW					| The arcflow formulation with reversed loss arcs (only for the SSP and VSSSP)
-- REFLECT					| The reflect formulation 
-- REFLECTB 					| The reflect formulation with backward loss arcs (only for the SSP and VSSSP)
-- REFLECTBSB				| The reflect formulation with backward loss arcs and the adapted reduction procedure (only for the SSP and VSSSP)
-- REFLECTBTVAR				| The reflect formulation with backward loss arcs and conversion variables (only for the SSP and VSSSP)
-- REFLECTBSBTVAR			| The reflect formulation with backward loss arcs, the adapted reduction procedure, and conversion variables (only for the SSP and VSSSP)
-- REFLECTNOSMALLB			| The reflect formulation with small-roll arcs (only for the VSCSP, MKP, and VSSSP)
+- ARCFLOW			| The arcflow formulation
+- LARCFLOW			| The arcflow formulation with reversed loss arcs (only for the SSP and VSSSP)
+- REFLECT			| The reflect formulation 
+- REFLECTB 			| The reflect formulation with backward loss arcs (only for the SSP and VSSSP)
+- REFLECTBSB			| The reflect formulation with backward loss arcs and the adapted reduction procedure (only for the SSP and VSSSP)
+- REFLECTBTVAR			| The reflect formulation with backward loss arcs and conversion variables (only for the SSP and VSSSP)
+- REFLECTBSBTVAR		| The reflect formulation with backward loss arcs, the adapted reduction procedure, and conversion variables (only for the SSP and VSSSP)
+- REFLECTNOSMALLB		| The reflect formulation with small-roll arcs (only for the VSCSP, MKP, and VSSSP)
 - REFLECTNOSMALLBTRANSA		| The reflect formulation with small-roll and extended reflected connection arcs (only for the VSCSP, MKP, and VSSSP)
 - REFLECTNOSMALLBTRANSADA	| The reflect formulation with small-roll, extended reflected connection, and downgrade arcs (only for the VSCSP, MKP, and VSSSP)
-- REFLECTBFULL				| The reflect formulation with backward loss arcs, the adapted reduction procedure, conversion variables, small-roll, extended reflected connection, and downgrade arcs (only for the VSSSP)
+- REFLECTBFULL			| The reflect formulation with backward loss arcs, the adapted reduction procedure, conversion variables, small-roll, extended reflected connection, and downgrade arcs (only for the VSSSP)
 
 Each folder contains the same substructure. For example, 1_CYCLE contains the following files:
-- Allocation.cpp	| Contains a number of secondary functions (this file is usually the same for each subfolder)
-- Allocation.h		| The header file corresponding to Allocation.cpp (this file is usually the same for each subfolder)
+- Allocation.cpp		| Contains a number of secondary functions (this file is usually the same for each subfolder)
+- Allocation.h			| The header file corresponding to Allocation.cpp (this file is usually the same for each subfolder)
 - main.cpp			| The front-end code for using the method  
 - main.h			| The header file corresponding to main.cpp 
 - makefile			| Used for compiling under linux (it needs to be updated by the user)
@@ -43,5 +43,6 @@ where
 
 ## License
 This project is licensed under the [CC BY-NC-ND 4.0](LICENSE.md) license.
+
 
 Any questions, comments, or issues with the code can be reported to Maxence Delorme's academic email address.
